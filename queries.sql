@@ -1,4 +1,4 @@
--- Financial Expense & Invoice Analysis | SQL for FP&A
+-- Financial Expense Analysis & Budget Variance | SQL for FP&A | Powerbi
 -- SQL dialect: PostgreSQL
 -- Run schema.sql, import the CSV files, and execute this file in pgAdmin 4.
 -- All data is synthetic. Invoice date is used as a simplified proxy for expense period.
