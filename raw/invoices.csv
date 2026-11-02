@@ -1,0 +1,243 @@
+invoice_id,vendor_id,vendor_name,department,expense_category,invoice_date,due_date,invoice_amount,currency,invoice_status,description
+INV0001,V026,Noble Equipment Hire,Human Resources,Rent,2026-01-06,2026-02-20,1484.6,GBP,Partially Paid,Rent charges - Jan 2026
+INV0002,V006,Summit Telecom,Operations,Rent,2025-10-24,2025-11-07,6997.24,GBP,Paid,Rent charges - Oct 2025
+INV0003,V012,Oak & Stone Repairs,Facilities,Cleaning,2026-01-09,2026-02-08,3968.75,GBP,Paid,Cleaning charges - Jan 2026
+INV0004,V019,Beacon Fire Safety,Human Resources,Water,15/03/2025,2025-04-14,13192.0,GBP,Paid,Water charges - Mar 2025
+INV0005,V008,Bluewave Facilities,Finance,IT Services,2026-01-24,2026-03-10,12401.9,GBP,Unpaid,IT Services charges - Jan 2026
+INV0006,V025,Kingsway Property Group,Facilities,Electricity,2025-02-27,2025-03-13,5849.29,GBP,Paid,Electricity charges - Feb 2025
+INV0007,V007,Cedar Office Supplies,Human Resources,Cleaning,2025-08-05,2025-09-04,11884.04,GBP,Paid,Cleaning charges - Aug 2025
+INV0008,V005,Metro Water Co,Facilities,Repairs,2026-04-15,2026-05-15,"£4,627.64",GBP,Paid,Repairs charges - Apr 2026
+INV0009,V014,Evergreen Electrical,Procurement,Maintenance,2025-09-27,2025-10-11,16186.36,GBP,Paid,Maintenance charges - Sep 2025
+INV0010,V016,Delta HVAC Services,Facilities,IT Services,13/08/2025,2025-09-27,1863.64,GBP,Paid,IT Services charges - Aug 2025
+INV0011,V025,Kingsway Property Group,Facilities,Water,2025-04-23,2025-05-07,12328.54,GBP,Partially Paid,Water charges - Apr 2025
+INV0012,V015,Crown Lease Management,,Maintenance,2026-01-30,2026-02-13,9641.78,GBP,Unpaid,Maintenance charges - Jan 2026
+INV0013,V023,Atlas Lift Maintenance,Procurement,Gas,2025-01-12,2025-02-26,15954.99,GBP,Unpaid,Gas charges - Jan 2025
+INV0014,V014,Evergreen Electrical,Operations,Repairs,2025-12-15,2025-12-29,3057.3,GBP,Paid,Repairs charges - Dec 2025
+INV0015,V019,Beacon Fire Safety,Human Resources,Water,2025-09-27,2025-10-27,16449.14,GBP,Unpaid,Water charges - Sep 2025
+INV0016,V020,Westbridge Services,Procurement,IT Services,2025-11-02,2026-01-01,3780.67,GBP,Paid,IT Services charges - Nov 2025
+INV0017,V030,Keystone Building Care,Human Resources,IT Services,2025-06-15,2025-08-14,£260.15,GBP,Paid,IT Services charges - Jun 2025
+INV0018,V029,Unity Insurance Services,Operations,Cleaning,2025-01-20,2025-02-19,17739.45,GBP,Unpaid,Cleaning charges - Jan 2025
+INV0019,V021,Lighthouse IT Support,Operations,Rent,2025-09-03,2025-10-03,17058.35,GBP,Paid,Rent charges - Sep 2025
+INV0020,V025,Kingsway Property Group,Operations,IT Services,2026-05-13,2026-05-27,2482.25,GBP,Partially Paid,IT Services charges - May 2026
+INV0021,V028,Sterling Compliance,Finance,IT Services,2025-06-19,2025-08-18,11017.04,GBP,Unpaid,IT Services charges - Jun 2025
+INV0022,V013,Horizon Security,Procurement,Repairs,25/07/2025,2025-08-24,17913.9,GBP,Partially Paid,Repairs charges - Jul 2025
+INV0023,V004,Greenfield Maintenance,Human Resources,Insurance,2026-03-25,2026-05-24,4650.32,GBP,Paid,Insurance charges - Mar 2026
+INV0024,V008,Bluewave Facilities,Human Resources,IT Services,2025-01-22,2025-03-08,10694.81,GBP,Paid,IT Services charges - Jan 2025
+INV0025,V002,Brightline Utilities,Facilities,Gas,2025-03-02,2025-04-01,15508.53,GBP,Paid,Gas charges - Mar 2025
+INV0026,V007, CEDAR OFFICE SUPPLIES ,Finance,Insurance,2025-09-01,2025-10-01,9821.4,GBP,Partially Paid,Insurance charges - Sep 2025
+INV0027,V026,Noble Equipment Hire,Facilities,Insurance,2026-04-30,2026-06-14,7475.31,GBP,Paid,Insurance charges - Apr 2026
+INV0028,V014,Evergreen Electrical,Finance,Telecom,2026-03-18,2026-04-01,8539.69,GBP,Partially Paid,Telecom charges - Mar 2026
+INV0029,V024,Riverbank Utilities,Operations,Telecom,2025-04-11,2025-06-10,6272.62,GBP,Unpaid,Telecom charges - Apr 2025
+INV0030,V021,Lighthouse IT Support,Facilities,Rent,2025-09-12,2025-10-12,8212.89,GBP,Paid,Rent charges - Sep 2025
+INV0031,V006,Summit Telecom,IT,Rent,2025-10-13,2025-10-27,8115.57,GBP,Unpaid,Rent charges - Oct 2025
+INV0032,V027,Parkside Groundskeeping,Operations,IT Services,2025-04-11,2025-04-25,511.95,GBP,Paid,IT Services charges - Apr 2025
+INV0033,V016,Delta HVAC Services,Facilities,Telecom,2025-08-31,,8794.11,GBP,Unpaid,Telecom charges - Aug 2025
+INV0034,V001,Northstar Energy Ltd,Facilities,Telecom,2025-03-02,2025-04-16,17739.23,GBP,Paid,Telecom charges - Mar 2025
+INV0035,V023,Atlas Lift Maintenance,Finance,Telecom,2026-04-11,2026-05-26,17242.39,GBP,Unpaid,Telecom charges - Apr 2026
+INV0036,V008,Bluewave Facilities,Facilities,Rent,2026-05-14,2026-06-28,"£4,114.19",GBP,Paid,Rent charges - May 2026
+INV0037,V002,Brightline Utilities,Procurement,Cleaning,2025-03-04,2025-04-03,1140.03,GBP,Paid,Cleaning charges - Mar 2025
+INV0038,V019,Beacon Fire Safety,Facilities,Electricity,2026-06-28,2026-07-28,1671.98,GBP,Paid,Electricity charges - Jun 2026
+INV0039,V020,Westbridge Services,Procurement,Rent,2025-03-11,2025-05-10,2377.99,GBP,Unpaid,Rent charges - Mar 2025
+INV0040,V002,Brightline Utilities,Human Resources,Maintenance,2025-09-10,2025-10-10,11244.02,GBP,Paid,Maintenance charges - Sep 2025
+INV0041,V007,Cedar Office Supplies,Finance,Repairs,2026-06-20,2026-07-20,12137.64,GBP,Paid,Repairs charges - Jun 2026
+INV0042,V023,Atlas Lift Maintenance,IT,Water,2025-09-29,2025-11-13,11707.64,GBP,Paid,Water charges - Sep 2025
+INV0043,V020,Westbridge Services,Operations,Insurance,2025-03-16,2025-05-15,17972.57,GBP,Unpaid,Insurance charges - Mar 2025
+INV0044,V021,Lighthouse IT Support,Human Resources,Rent,2025-03-17,2025-04-16,4957.31,GBP,Unpaid,Rent charges - Mar 2025
+INV0045,V010,Pioneer Gas Services,Facilities,Cleaning,2025-03-12,2025-04-11,3050.01,GBP,Unpaid,Cleaning charges - Mar 2025
+INV0046,V001,Northstar Energy Ltd,Human Resources,IT Services,06/11/2025,2025-12-21,12104.57,GBP,Paid,IT Services charges - Nov 2025
+INV0047,V004,Greenfield Maintenance,Facilities,Repairs,2025-04-17,2025-06-16,16042.4,GBP,Unpaid,Repairs charges - Apr 2025
+INV0048,V020,Westbridge Services,Finance,Repairs,2025-06-09,2025-08-08,3988.68,GBP,Paid,Repairs charges - Jun 2025
+INV0049,V009,Urban Waste Solutions,Human Resources,Insurance,2025-09-28,2025-10-28,16319.72,GBP,Unpaid,Insurance charges - Sep 2025
+INV0050,V027,Parkside Groundskeeping,Procurement,Telecom,2025-04-05,2025-04-19,5161.07,GBP,Paid,Telecom charges - Apr 2025
+INV0051,V006,Summit Telecom,Procurement,Repairs,2025-05-14,2025-05-28,13406.85,GBP,Paid,Repairs charges - May 2025
+INV0052,V003,Apex Property Services,Human Resources,Electricity,2026-03-14,2026-04-28,1585.58,GBP,Unpaid,Electricity charges - Mar 2026
+INV0053,V030,Keystone Building Care,Human Resources,Electricity,2025-06-02,2025-08-01,6803.58,GBP,Paid,Electricity charges - Jun 2025
+INV0054,V014,Evergreen Electrical,Facilities,Electricity,2026-03-17,2026-03-31,6722.56,GBP,Unpaid,Electricity charges - Mar 2026
+INV0055,V026,Noble Equipment Hire,Finance,Rent,2025-02-10,2025-03-27,4679.15,GBP,Paid,Rent charges - Feb 2025
+INV0056,V013,Horizon Security,Human Resources,Water,2026-02-21,2026-03-23,15596.75,GBP,Unpaid,Water charges - Feb 2026
+INV0057,V010,Pioneer Gas Services,IT,Electricity,2025-07-01,2025-07-31,13324.02,GBP,Paid,Electricity charges - Jul 2025
+INV0058,V008,Bluewave Facilities,Procurement,Rent,2026-02-26,2026-04-12,3075.76,GBP,Partially Paid,Rent charges - Feb 2026
+INV0059,V008,Bluewave Facilities,Operations,Insurance,2026-01-27,2026-03-13,3792.42,GBP,Unpaid,Insurance charges - Jan 2026
+INV0060,V007,Cedar Office Supplies,Finance,Rent,2025-12-25,2026-01-24,670.04,GBP,Paid,Rent charges - Dec 2025
+INV0061,V025,Kingsway Property Group,Finance,Gas,2025-12-03,2025-12-17,5204.47,GBP,Partially Paid,Gas charges - Dec 2025
+INV0062,V011,Silverline Cleaning,Procurement,IT Services,2026-02-14,2026-03-16,16921.46,GBP,Paid,IT Services charges - Feb 2026
+INV0063,V009,Urban Waste Solutions,Facilities,Maintenance,2025-09-25,2025-10-25,929.07,GBP,Partially Paid,Maintenance charges - Sep 2025
+INV0064,V014,Evergreen Electrical,Procurement,Cleaning,2025-12-20,2026-01-03,11010.21,GBP,Paid,Cleaning charges - Dec 2025
+INV0065,V008,Bluewave Facilities,Human Resources,Rent,2026-01-30,2026-03-16,1037.86,GBP,Paid,Rent charges - Jan 2026
+INV0066,V008,Bluewave Facilities,,Rent,2026-06-17,2026-08-01,7905.53,GBP,Unpaid,Rent charges - Jun 2026
+INV0067,V022,Meadow Catering,Human Resources,Cleaning,2025-12-05,2025-12-19,15302.27,GBP,Partially Paid,Cleaning charges - Dec 2025
+INV0068,V022,Meadow Catering,Human Resources,Repairs,2025-11-04,2025-11-18,7498.97,GBP,Paid,Repairs charges - Nov 2025
+INV0069,V013,Horizon Security,Human Resources,Water,2025-10-30,2025-11-29,7712.92,GBP,Unpaid,Water charges - Oct 2025
+INV0070,V010,Pioneer Gas Services,Human Resources,Maintenance,2025-06-28,2025-07-28,7457.83,GBP,Unpaid,Maintenance charges - Jun 2025
+INV0071,V020,Westbridge Services,Finance,Rent,2025-11-08,2026-01-07,14197.22,GBP,Partially Paid,Rent charges - Nov 2025
+INV0072,V015,Crown Lease Management,IT,Insurance,2025-11-26,2025-12-10,12242.38,GBP,Paid,Insurance charges - Nov 2025
+INV0073,V014,Evergreen Electrical,Procurement,Gas,2025-06-23,2025-07-07,9399.27,GBP,Partially Paid,Gas charges - Jun 2025
+INV0074,V026,Noble Equipment Hire,Operations,Rent,2025-12-10,2026-01-24,5759.95,GBP,Unpaid,Rent charges - Dec 2025
+INV0075,V013,Horizon Security,Operations,Electricity,2025-05-31,2025-06-30,17714.86,GBP,Partially Paid,Electricity charges - May 2025
+INV0076,V029,Unity Insurance Services,IT,Telecom,2025-03-16,2025-04-15,11428.34,GBP,Paid,Telecom charges - Mar 2025
+INV0077,V008, BLUEWAVE FACILITIES ,IT,Telecom,2026-01-29,2026-03-15,2869.39,GBP,Partially Paid,Telecom charges - Jan 2026
+INV0078,V007,Cedar Office Supplies,IT,Rent,2025-04-20,2025-05-20,14522.95,GBP,Partially Paid,Rent charges - Apr 2025
+INV0079,V008,Bluewave Facilities,Operations,IT Services,2026-04-21,2026-06-05,16535.09,GBP,Paid,IT Services charges - Apr 2026
+INV0080,V018,Clearpath Logistics,IT,IT Services,2025-05-17,2025-06-16,10819.28,GBP,Unpaid,IT Services charges - May 2025
+INV0081,V014,Evergreen Electrical,Human Resources,IT Services,2026-03-30,2026-04-13,14992.6,GBP,Paid,IT Services charges - Mar 2026
+INV0082,V015,Crown Lease Management,Procurement,Insurance,2025-06-12,2025-06-26,4850.65,GBP,Paid,Insurance charges - Jun 2025
+INV0083,V021,Lighthouse IT Support,Human Resources,Insurance,2025-10-11,2025-11-10,4496.61,GBP,Paid,Insurance charges - Oct 2025
+INV0084,V011,Silverline Cleaning,Facilities,Repairs,2025-10-20,2025-11-19,5924.84,GBP,Paid,Repairs charges - Oct 2025
+INV0085,V020,Westbridge Services,Facilities,Rent,2025-05-22,2025-07-21,12567.61,GBP,Partially Paid,Rent charges - May 2025
+INV0086,V011,Silverline Cleaning,IT,Telecom,2025-03-07,2025-04-06,9881.35,GBP,Paid,Telecom charges - Mar 2025
+INV0087,V029,Unity Insurance Services,IT,Telecom,2025-07-31,2025-08-30,13913.87,GBP,Unpaid,Telecom charges - Jul 2025
+INV0088,V016,Delta HVAC Services,Human Resources,Telecom,2025-01-21,2025-03-07,354.66,GBP,Paid,Telecom charges - Jan 2025
+INV0089,V024,Riverbank Utilities,IT,IT Services,04/02/2026,2026-04-05,13289.75,GBP,Unpaid,IT Services charges - Feb 2026
+INV0090,V008,Bluewave Facilities,IT,Rent,2025-08-14,2025-09-28,7986.09,GBP,Paid,Rent charges - Aug 2025
+INV0091,V024,Riverbank Utilities,Procurement,Telecom,2025-12-11,2026-02-09,"£3,179.54",GBP,Paid,Telecom charges - Dec 2025
+INV0092,V001,Northstar Energy Ltd,Human Resources,IT Services,2025-05-11,2025-06-25,16347.99,GBP,Partially Paid,IT Services charges - May 2025
+INV0093,V005,Metro Water Co,Operations,Telecom,2025-01-28,2025-02-27,15636.61,GBP,Paid,Telecom charges - Jan 2025
+INV0094,V007,Cedar Office Supplies,IT,Cleaning,2025-09-24,2025-10-24,8320.91,GBP,Paid,Cleaning charges - Sep 2025
+INV0095,V009,Urban Waste Solutions,Finance,Telecom,2026-01-24,2026-02-23,15069.67,GBP,Paid,Telecom charges - Jan 2026
+INV0096,V026,Noble Equipment Hire,Finance,Rent,2025-02-23,2025-04-09,1467.98,GBP,Unpaid,Rent charges - Feb 2025
+INV0097,V007,Cedar Office Supplies,Operations,Rent,2025-02-11,2025-03-13,15146.31,GBP,Partially Paid,Rent charges - Feb 2025
+INV0098,V022,Meadow Catering,Facilities,Insurance,2025-09-02,2025-09-16,2280.41,GBP,Unpaid,Insurance charges - Sep 2025
+INV0099,V025,Kingsway Property Group,Procurement,Repairs,2026-04-22,2026-05-06,6797.89,GBP,Partially Paid,Repairs charges - Apr 2026
+INV0100,V004,Greenfield Maintenance,Facilities,Repairs,2025-04-28,2025-06-27,10521.65,GBP,Unpaid,Repairs charges - Apr 2025
+INV0101,V006,Summit Telecom,IT,Rent,2026-01-20,2026-02-03,10759.74,GBP,Unpaid,Rent charges - Jan 2026
+INV0102,V028,Sterling Compliance,Operations,Repairs,2025-09-06,2025-11-05,12395.6,GBP,Unpaid,Repairs charges - Sep 2025
+INV0103,V014,Evergreen Electrical,Finance,IT Services,2025-02-12,2025-02-26,11992.0,GBP,Paid,IT Services charges - Feb 2025
+INV0104,V027,Parkside Groundskeeping,Operations,Telecom,2025-12-16,2025-12-30,8951.08,GBP,Paid,Telecom charges - Dec 2025
+INV0105,V023,Atlas Lift Maintenance,Procurement,Insurance,2026-01-06,2026-02-20,2965.59,GBP,Paid,Insurance charges - Jan 2026
+INV0106,V020,Westbridge Services,Procurement,Repairs,2026-06-19,2026-08-18,14595.54,GBP,Paid,Repairs charges - Jun 2026
+INV0107,V027,Parkside Groundskeeping,IT,Telecom,2026-05-11,2026-05-25,13225.72,GBP,Paid,Telecom charges - May 2026
+INV0108,V029,Unity Insurance Services,Operations,Repairs,2025-09-09,2025-10-09,8251.74,GBP,Unpaid,Repairs charges - Sep 2025
+INV0109,V018,Clearpath Logistics,Finance,Electricity,2026-01-24,2026-02-23,15354.41,GBP,Paid,Electricity charges - Jan 2026
+INV0110,V011,Silverline Cleaning,Finance,Repairs,2025-08-06,2025-09-05,5213.94,GBP,Partially Paid,Repairs charges - Aug 2025
+INV0111,V019,Beacon Fire Safety,Human Resources,Electricity,2025-10-10,2025-11-09,17078.11,GBP,Paid,Electricity charges - Oct 2025
+INV0112,V025,Kingsway Property Group,IT,IT Services,2026-02-21,2026-03-07,4515.75,GBP,Paid,IT Services charges - Feb 2026
+INV0113,V003,Apex Property Services,IT,Electricity,2026-05-18,2026-07-02,5472.68,GBP,paid,Electricity charges - May 2026
+INV0114,V012,Oak & Stone Repairs,Finance,Maintenance,2025-09-07,2025-10-07,8650.37,GBP,Paid,Maintenance charges - Sep 2025
+INV0115,V011,Silverline Cleaning,Procurement,IT Services,2026-03-12,2026-04-11,6494.64,GBP,Paid,IT Services charges - Mar 2026
+INV0116,V006,Summit Telecom,Finance,Rent,2025-11-10,2025-11-24,13052.8,GBP,Paid,Rent charges - Nov 2025
+INV0117,V026,Noble Equipment Hire,Facilities,Rent,2025-07-09,2025-08-23,8844.52,GBP,Partially Paid,Rent charges - Jul 2025
+INV0118,V004,Greenfield Maintenance,Human Resources,Repairs,2026-06-22,2026-08-21,15029.15,GBP,Paid,Repairs charges - Jun 2026
+INV0119,V001,Northstar Energy Ltd,Facilities,Repairs,2026-01-05,2026-02-19,12817.33,GBP,Paid,Repairs charges - Jan 2026
+INV0120,V010,Pioneer Gas Services,Operations,IT Services,2025-02-16,2025-03-18,12629.16,GBP,Paid,IT Services charges - Feb 2025
+INV0121,V022,Meadow Catering,Operations,Electricity,2026-05-18,2026-06-01,5297.02,GBP,Paid,Electricity charges - May 2026
+INV0122,V014,Evergreen Electrical,Facilities,Electricity,2025-12-15,2025-12-29,16953.88,GBP,Paid,Electricity charges - Dec 2025
+INV0123,V003,Apex Property Services,IT,Insurance,2025-03-08,2025-04-22,10492.13,GBP,Partially Paid,Insurance charges - Mar 2025
+INV0124,V010,Pioneer Gas Services,Facilities,Maintenance,2025-06-05,2025-07-05,1761.96,GBP,Paid,Maintenance charges - Jun 2025
+INV0125,V026,Noble Equipment Hire,Human Resources,Maintenance,2026-03-03,2026-04-17,11226.93,GBP,Unpaid,Maintenance charges - Mar 2026
+INV0126,V010,Pioneer Gas Services,IT,Insurance,2026-01-25,2026-02-24,15517.96,GBP,Unpaid,Insurance charges - Jan 2026
+INV0127,V002,Brightline Utilities,Human Resources,Maintenance,2025-11-09,2025-12-09,11070.95,GBP,Unpaid,Maintenance charges - Nov 2025
+INV0128,V008,Bluewave Facilities,Procurement,Rent,2025-08-01,2025-09-15,11972.6,GBP,Paid,Rent charges - Aug 2025
+INV0129,V010,Pioneer Gas Services,Human Resources,Gas,2025-06-27,2025-07-27,297.49,GBP,Paid,Gas charges - Jun 2025
+INV0130,V013,Horizon Security,Finance,Electricity,2026-04-27,2026-05-27,5363.86,GBP,Paid,Electricity charges - Apr 2026
+INV0131,V008,Bluewave Facilities,Operations,Rent,2026-04-10,2026-05-25,14233.95,GBP,Partially Paid,Rent charges - Apr 2026
+INV0132,V019,Beacon Fire Safety,IT,Gas,2025-07-22,2025-08-21,4240.37,GBP,Paid,Gas charges - Jul 2025
+INV0133,V002,Brightline Utilities,Facilities,Gas,2025-09-30,2025-10-30,3195.13,GBP,Paid,Gas charges - Sep 2025
+INV0134,V018,Clearpath Logistics,IT,Gas,2025-10-23,2025-11-22,12474.03,GBP,Partially Paid,Gas charges - Oct 2025
+INV0135,V016,Delta HVAC Services,Human Resources,IT Services,2025-10-06,2025-11-20,8020.22,GBP,Partially Paid,IT Services charges - Oct 2025
+INV0136,V020,Westbridge Services,Procurement,Cleaning,2026-03-19,2026-05-18,4694.03,GBP,Paid,Cleaning charges - Mar 2026
+INV0137,V019,Beacon Fire Safety,Procurement,Repairs,2025-01-22,2025-02-21,964.11,GBP,Unpaid,Repairs charges - Jan 2025
+INV0138,V030,Keystone Building Care,Human Resources,Insurance,2026-04-27,2026-06-26,5187.28,GBP,Unpaid,Insurance charges - Apr 2026
+INV0139,V003,Apex Property Services,Procurement,Insurance,2026-03-23,2026-05-07,8592.68,GBP,Paid,Insurance charges - Mar 2026
+INV0140,V030,Keystone Building Care,Procurement,Gas,2025-11-25,2026-01-24,3104.64,GBP,Paid,Gas charges - Nov 2025
+INV0141,V027, PARKSIDE GROUNDSKEEPING ,Finance,Telecom,2026-05-23,2026-06-06,13748.87,GBP,Paid,Telecom charges - May 2026
+INV0142,V011,Silverline Cleaning,Finance,Repairs,2025-04-01,2025-05-01,2307.61,GBP,Unpaid,Repairs charges - Apr 2025
+INV0143,V015,Crown Lease Management,Operations,IT Services,2026-06-11,2026-06-25,7585.14,GBP,Paid,IT Services charges - Jun 2026
+INV0144,V021,Lighthouse IT Support,Human Resources,Insurance,2026-01-06,2026-02-05,8096.23,GBP,Paid,Insurance charges - Jan 2026
+INV0145,V014,Evergreen Electrical,Human Resources,Water,2025-10-01,2025-10-15,8026.56,GBP,Partially Paid,Water charges - Oct 2025
+INV0146,V026,Noble Equipment Hire,Operations,Maintenance,2025-05-05,2025-06-19,4497.53,GBP,Paid,Maintenance charges - May 2025
+INV0147,V003,Apex Property Services,Human Resources,Telecom,2025-01-15,2025-03-01,4238.44,GBP,Unpaid,Telecom charges - Jan 2025
+INV0148,V023,Atlas Lift Maintenance,IT,Gas,2025-04-27,2025-06-11,15020.54,GBP,Paid,Gas charges - Apr 2025
+INV0149,V014,Evergreen Electrical,Human Resources,Repairs,2025-10-26,2025-11-09,15066.35,GBP,Unpaid,Repairs charges - Oct 2025
+INV0150,V005,Metro Water Co,IT,IT Services,2025-09-07,2025-10-07,7058.65,GBP,Unpaid,IT Services charges - Sep 2025
+INV0151,V030,Keystone Building Care,Procurement,Water,2026-06-05,2026-08-04,1489.13,GBP,Unpaid,Water charges - Jun 2026
+INV0152,V009,Urban Waste Solutions,Finance,IT Services,2026-03-01,2026-03-31,14814.75,GBP,Paid,IT Services charges - Mar 2026
+INV0153,V022,Meadow Catering,Human Resources,Maintenance,2025-11-02,2025-11-16,8941.12,GBP,Paid,Maintenance charges - Nov 2025
+INV0154,V018,Clearpath Logistics,Finance,Cleaning,2026-05-11,2026-06-10,13790.99,GBP,Paid,Cleaning charges - May 2026
+INV0155,V021,Lighthouse IT Support,Facilities,Rent,2025-11-26,2025-12-26,7047.73,GBP,Unpaid,Rent charges - Nov 2025
+INV0156,V024,Riverbank Utilities,Operations,Cleaning,2026-02-25,2026-04-26,8645.33,GBP,Unpaid,Cleaning charges - Feb 2026
+INV0157,V018,Clearpath Logistics,IT,Water,2026-01-26,2026-02-25,17375.63,GBP,Paid,Water charges - Jan 2026
+INV0158,V004,Greenfield Maintenance,Operations,Insurance,2025-12-06,2026-02-04,9585.63,GBP,Paid,Insurance charges - Dec 2025
+INV0159,V003,Apex Property Services,IT,Water,2025-05-28,2025-07-12,8583.46,GBP,Unpaid,Water charges - May 2025
+INV0160,V021,Lighthouse IT Support,Human Resources,Telecom,2025-12-13,2026-01-12,1675.6,GBP,Paid,Telecom charges - Dec 2025
+INV0161,V028,Sterling Compliance,Finance,Insurance,2026-01-25,2026-03-26,9853.03,GBP,Partially Paid,Insurance charges - Jan 2026
+INV0162,V008,Bluewave Facilities,Procurement,Repairs,2025-08-29,2025-10-13,13505.1,GBP,Paid,Repairs charges - Aug 2025
+INV0163,V018,Clearpath Logistics,Procurement,Gas,2025-04-11,2025-05-11,3202.97,GBP,Paid,Gas charges - Apr 2025
+INV0164,V026,Noble Equipment Hire,Operations,Cleaning,2025-01-30,2025-03-16,1246.12,GBP,Paid,Cleaning charges - Jan 2025
+INV0165,V021,Lighthouse IT Support,Facilities,Rent,2026-03-18,2026-04-17,7563.92,GBP,Partially Paid,Rent charges - Mar 2026
+INV0166,V003,Apex Property Services,Facilities,Water,2025-07-04,2025-08-18,11068.48,GBP,Paid,Water charges - Jul 2025
+INV0167,V005,Metro Water Co,IT,Maintenance,2025-09-04,2025-10-04,4371.34,GBP,Partially Paid,Maintenance charges - Sep 2025
+INV0168,V025,Kingsway Property Group,Finance,Electricity,2026-04-16,2026-04-30,8508.25,GBP,Paid,Electricity charges - Apr 2026
+INV0169,V012,Oak & Stone Repairs,Operations,Insurance,2025-06-11,2025-07-11,17780.82,GBP,Paid,Insurance charges - Jun 2025
+INV0170,V015,Crown Lease Management,Procurement,Repairs,2026-03-11,2026-03-25,15254.14,GBP,Paid,Repairs charges - Mar 2026
+INV0171,V013,Horizon Security,IT,Gas,2026-01-29,2026-02-28,7019.22,GBP,Paid,Gas charges - Jan 2026
+INV0172,V001,Northstar Energy Ltd,Procurement,Repairs,2025-10-30,2025-12-14,17608.51,GBP,Partially Paid,Repairs charges - Oct 2025
+INV0173,V028,Sterling Compliance,Operations,Maintenance,2025-10-09,2025-12-08,12422.94,GBP,Unpaid,Maintenance charges - Oct 2025
+INV0174,V027,Parkside Groundskeeping,Human Resources,Insurance,2025-02-20,2025-03-06,16298.76,GBP,Paid,Insurance charges - Feb 2025
+INV0175,V008,Bluewave Facilities,Human Resources,Cleaning,2025-08-24,2025-10-08,11549.97,GBP,Partially Paid,Cleaning charges - Aug 2025
+INV0176,V023,Atlas Lift Maintenance,Procurement,Gas,2025-05-21,2025-07-05,11722.55,GBP,Paid,Gas charges - May 2025
+INV0177,V012,Oak & Stone Repairs,Operations,Maintenance,2026-03-28,2026-04-27,13249.39,GBP,Paid,Maintenance charges - Mar 2026
+INV0178,V006,Summit Telecom,Finance,Telecom,2025-10-30,2025-11-13,3814.11,GBP,Unpaid,Telecom charges - Oct 2025
+INV0179,V030,Keystone Building Care,Human Resources,IT Services,2026-01-10,2026-03-11,5087.36,GBP,Paid,IT Services charges - Jan 2026
+INV0180,V026,Noble Equipment Hire,Finance,Cleaning,2026-05-09,2026-06-23,2294.26,GBP,Unpaid,Cleaning charges - May 2026
+INV0181,V028,Sterling Compliance,Facilities,Telecom,2025-05-25,2025-07-24,14531.43,GBP,PENDING,Telecom charges - May 2025
+INV0182,V018,Clearpath Logistics,Operations,Repairs,2026-02-09,2026-03-11,2443.7,GBP,Paid,Repairs charges - Feb 2026
+INV0183,V027,Parkside Groundskeeping,Human Resources,Telecom,2025-09-26,2025-10-10,11584.25,GBP,Paid,Telecom charges - Sep 2025
+INV0184,V022,Meadow Catering,IT,Electricity,2025-08-28,2025-09-11,15945.17,GBP,Paid,Electricity charges - Aug 2025
+INV0185,V023,Atlas Lift Maintenance,Procurement,Gas,2025-08-15,2025-09-29,14873.43,GBP,Unpaid,Gas charges - Aug 2025
+INV0186,V004,Greenfield Maintenance,Procurement,Telecom,2025-11-06,2026-01-05,2731.04,GBP,Unpaid,Telecom charges - Nov 2025
+INV0187,V003,Apex Property Services,IT,Gas,2025-11-08,2025-12-23,4417.7,GBP,Paid,Gas charges - Nov 2025
+INV0188,V022,Meadow Catering,IT,Cleaning,2026-02-02,2026-02-16,17101.51,GBP,Partially Paid,Cleaning charges - Feb 2026
+INV0189,V017,Redwood Plumbing,Human Resources,Water,2026-03-06,2026-03-20,11874.86,GBP,Unpaid,Water charges - Mar 2026
+INV0190,V024,Riverbank Utilities,Finance,Electricity,2026-02-22,2026-04-23,6826.91,GBP,Paid,Electricity charges - Feb 2026
+INV0191,V023,Atlas Lift Maintenance,Finance,Gas,2025-08-30,2025-10-14,6770.2,GBP,Unpaid,Gas charges - Aug 2025
+INV0192,V009,Urban Waste Solutions,Operations,Telecom,2026-01-03,2026-02-02,3619.1,GBP,Paid,Telecom charges - Jan 2026
+INV0193,V026,Noble Equipment Hire,Operations,Rent,2026-04-11,2026-05-26,11601.0,GBP,Unpaid,Rent charges - Apr 2026
+INV0194,V007,Cedar Office Supplies,Finance,Rent,2025-02-21,2025-03-23,14218.86,GBP,Paid,Rent charges - Feb 2025
+INV0195,V007,Cedar Office Supplies,Human Resources,Rent,2025-08-01,2025-08-31,6081.93,GBP,Paid,Rent charges - Aug 2025
+INV0196,V010,Pioneer Gas Services,Finance,Water,2025-01-03,2025-02-02,9838.82,GBP,Unpaid,Water charges - Jan 2025
+INV0197,V010,Pioneer Gas Services,Procurement,Electricity,2025-04-23,2025-05-23,513.77,GBP,Unpaid,Electricity charges - Apr 2025
+INV0198,V001,Northstar Energy Ltd,Human Resources,Cleaning,2025-09-01,2025-10-16,3342.87,GBP,Paid,Cleaning charges - Sep 2025
+INV0199,V024,Riverbank Utilities,Human Resources,Gas,2026-03-08,2026-05-07,1378.16,GBP,Paid,Gas charges - Mar 2026
+INV0200,V004,Greenfield Maintenance,Human Resources,Maintenance,2026-01-06,2026-03-07,8273.1,GBP,Paid,Maintenance charges - Jan 2026
+INV0201,V010,Pioneer Gas Services,Procurement,IT Services,2025-02-14,2025-03-16,8380.25,GBP,Unpaid,IT Services charges - Feb 2025
+INV0202,V014,Evergreen Electrical,IT,Telecom,2025-03-04,2025-03-18,12428.23,GBP,Paid,Telecom charges - Mar 2025
+INV0203,V015,Crown Lease Management,Operations,Gas,2026-03-31,2026-04-14,11047.28,GBP,Paid,Gas charges - Mar 2026
+INV0204,V018,Clearpath Logistics,Human Resources,Maintenance,2025-10-09,2025-11-08,12890.71,GBP,Paid,Maintenance charges - Oct 2025
+INV0205,V017,Redwood Plumbing,Finance,Insurance,2026-06-28,2026-07-12,10996.33,GBP,Paid,Insurance charges - Jun 2026
+INV0206,V024,Riverbank Utilities,Procurement,IT Services,2025-04-28,2025-06-27,15612.49,GBP,Paid,IT Services charges - Apr 2025
+INV0207,V027,Parkside Groundskeeping,IT,Cleaning,2025-08-22,2025-09-05,8299.61,GBP,Paid,Cleaning charges - Aug 2025
+INV0208,V011,Silverline Cleaning,Finance,Telecom,2025-04-08,2025-05-08,12055.66,GBP,Paid,Telecom charges - Apr 2025
+INV0209,V003,Apex Property Services,Procurement,Insurance,2025-06-06,2025-07-21,1869.24,GBP,Paid,Insurance charges - Jun 2025
+INV0210,V026,Noble Equipment Hire,Operations,Cleaning,2026-03-19,2026-05-03,2559.55,GBP,Paid,Cleaning charges - Mar 2026
+INV0211,V017,Redwood Plumbing,Procurement,Gas,2025-12-04,2025-12-18,6526.37,GBP,Partially Paid,Gas charges - Dec 2025
+INV0212,V014,Evergreen Electrical,Procurement,Electricity,2026-03-10,2026-03-24,10907.28,GBP,Paid,Electricity charges - Mar 2026
+INV0213,V023,Atlas Lift Maintenance,Facilities,Water,2026-06-04,2026-07-19,8808.86,GBP,Unpaid,Water charges - Jun 2026
+INV0214,V004,Greenfield Maintenance,Human Resources,Cleaning,2025-12-25,2026-02-23,13786.25,GBP,Paid,Cleaning charges - Dec 2025
+INV0215,V020,Westbridge Services,Human Resources,Maintenance,2026-03-16,2026-05-15,12230.84,GBP,Paid,Maintenance charges - Mar 2026
+INV0216,V014,Evergreen Electrical,Operations,Water,2025-10-01,2025-10-15,12722.9,GBP,Paid,Water charges - Oct 2025
+INV0217,V010,Pioneer Gas Services,Finance,Electricity,2025-12-14,2026-01-13,15690.06,GBP,Paid,Electricity charges - Dec 2025
+INV0218,V024,Riverbank Utilities,Operations,Water,2026-02-15,2026-04-16,11488.8,GBP,Paid,Water charges - Feb 2026
+INV0219,V014,Evergreen Electrical,Facilities,Telecom,2026-06-28,2026-07-12,8302.21,GBP,Paid,Telecom charges - Jun 2026
+INV0220,V025,Kingsway Property Group,Procurement,Cleaning,2025-11-16,2025-11-30,16959.98,GBP,Partially Paid,Cleaning charges - Nov 2025
+INV0221,V025,Kingsway Property Group,Facilities,Water,2025-02-23,2025-03-09,11216.63,GBP,Partially Paid,Water charges - Feb 2025
+INV0222,V016,Delta HVAC Services,IT,Telecom,2025-10-06,2025-11-20,11025.6,GBP,Paid,Telecom charges - Oct 2025
+INV0223,V015,Crown Lease Management,Human Resources,Gas,2025-08-09,2025-08-23,7880.97,GBP,Paid,Gas charges - Aug 2025
+INV0224,V002,Brightline Utilities,Human Resources,Repairs,2026-05-14,2026-06-13,4164.2,GBP,Unpaid,Repairs charges - May 2026
+INV0225,V008,Bluewave Facilities,Operations,Rent,2025-02-26,2025-04-12,17029.5,GBP,Unpaid,Rent charges - Feb 2025
+INV0226,V004,Greenfield Maintenance,Finance,Cleaning,2025-09-19,2025-11-18,387.21,GBP,Unpaid,Cleaning charges - Sep 2025
+INV0227,V018,Clearpath Logistics,Facilities,Telecom,2025-06-29,2025-07-29,12740.16,GBP,Paid,Telecom charges - Jun 2025
+INV0228,V028,Sterling Compliance,Operations,Telecom,2025-12-29,2026-02-27,13421.23,GBP,Paid,Telecom charges - Dec 2025
+INV0229,V019,Beacon Fire Safety,Operations,Cleaning,2026-04-16,2026-05-16,7869.8,GBP,Paid,Cleaning charges - Apr 2026
+INV0230,V017,Redwood Plumbing,Finance,Gas,2026-03-04,2026-03-18,620.2,GBP,Paid,Gas charges - Mar 2026
+INV0231,V003,Apex Property Services,Procurement,Cleaning,2026-04-17,2026-06-01,8001.63,GBP,Paid,Cleaning charges - Apr 2026
+INV0232,V017,Redwood Plumbing,Human Resources,Telecom,2026-03-23,2026-04-06,1645.99,GBP,Unpaid,Telecom charges - Mar 2026
+INV0233,V025,Kingsway Property Group,Facilities,Cleaning,2025-12-14,2025-12-28,3234.36,GBP,Paid,Cleaning charges - Dec 2025
+INV0234,V007,Cedar Office Supplies,Human Resources,IT Services,2025-04-27,2025-05-27,16330.13,GBP,Paid,IT Services charges - Apr 2025
+INV0235,V010,Pioneer Gas Services,Facilities,Gas,2025-06-01,2025-07-01,4793.44,GBP,Paid,Gas charges - Jun 2025
+INV0236,V010,Pioneer Gas Services,Procurement,Gas,2025-06-06,2025-07-06,17135.44,GBP,Partially Paid,Gas charges - Jun 2025
+INV0237,V015,Crown Lease Management,Human Resources,Maintenance,2026-04-21,2026-05-05,12340.12,GBP,Unpaid,Maintenance charges - Apr 2026
+INV0238,V005,Metro Water Co,Procurement,Cleaning,2025-11-27,2025-12-27,8055.79,GBP,Paid,Cleaning charges - Nov 2025
+INV0239,V002,Brightline Utilities,Finance,Maintenance,2025-11-07,2025-12-07,6496.97,GBP,Paid,Maintenance charges - Nov 2025
+INV0240,V002,Brightline Utilities,IT,Electricity,2026-04-18,2026-05-18,6795.09,GBP,Paid,Electricity charges - Apr 2026
+INV0006,V025,Kingsway Property Group,Facilities,Electricity,2025-02-27,2025-03-13,5849.29,GBP,Paid,Electricity charges - Feb 2025
+INV0043,V020,Westbridge Services,Operations,Insurance,2025-03-16,2025-05-15,17972.57,GBP,Unpaid,Insurance charges - Mar 2025

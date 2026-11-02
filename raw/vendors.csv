@@ -1,0 +1,32 @@
+vendor_id,vendor_name,vendor_category,payment_terms_days,active_flag
+V001,Northstar Energy Ltd,IT & Telecom,45,Y
+V002,Brightline Utilities,Utilities,30,Y
+V003,  APEX PROPERTY SERVICES ,Utilities,45,Y
+V004,Greenfield Maintenance,IT & Telecom,60,Y
+V005,Metro Water Co,Maintenance,30,Y
+V006,Summit Telecom,,14,Y
+V007,Cedar Office Supplies,Property,30,Y
+V008,  BLUEWAVE FACILITIES ,Property,45,Y
+V009,Urban Waste Solutions,IT & Telecom,30,Y
+V010,Pioneer Gas Services,Utilities,30 days,Y
+V011,Silverline Cleaning,IT & Telecom,30,Y
+V012,Oak & Stone Repairs,IT & Telecom,30,Y
+V013,  HORIZON SECURITY ,Facilities,30,Y
+V014,Evergreen Electrical,Utilities,14,Y
+V015,Crown Lease Management,Facilities,14,yes
+V016,Delta HVAC Services,Professional Services,45,Y
+V017,Redwood Plumbing,Utilities,14,Y
+V018,Clearpath Logistics,Utilities,30,Y
+V019,  BEACON FIRE SAFETY ,Utilities,30,Y
+V020,Westbridge Services,Property,60,Y
+V021,Lighthouse IT Support,Property,30,Y
+V022,Meadow Catering,Facilities,14,Y
+V023,Atlas Lift Maintenance,Facilities,45,Y
+V024,Riverbank Utilities,Utilities,60,Y
+V025,Kingsway Property Group,Facilities,14,Y
+V026,Noble Equipment Hire,Property,45,Y
+V027,Parkside Groundskeeping,IT & Telecom,14,Y
+V028,Sterling Compliance,IT & Telecom,60,Y
+V029,Unity Insurance Services,IT & Telecom,30,Y
+V030,Keystone Building Care,Facilities,60,Y
+V004,Greenfield Maintenance,IT & Telecom,60,Y
