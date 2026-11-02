@@ -1,4 +1,4 @@
-# Financial Expense & Invoice Analysis | SQL for FP&A
+# Financial Expense Analysis & Budget Variance | SQL for FP&A | Powerbi
 
 ## Project overview
 
@@ -48,20 +48,27 @@ Repeated vendor/date/amount combinations are treated as duplicate candidates for
 - **CSV** — structured datasets
 - **Git and GitHub** — version control and project presentation
 
-## Project structure
-
+## Repository structure
 ```text
-financial-expense-invoice-sql/
-├── data/
-│   ├── invoices.csv
-│   ├── payments.csv
-│   ├── vendors.csv
-│   └── monthly_budgets.csv
-├── schema.sql
-├── queries.sql
+financial-planning-expense-analytics/
 ├── README.md
-└── .gitignore
-```
+├── .gitignore
+├── data/
+│   ├── raw/
+│   └── cleaned/
+├── scripts/
+│   └── clean_data.py
+├── sql/
+│   ├── schema.sql
+│   └── analysis_queries.sql
+├── docs/
+│   ├── data_quality_report.md
+│   ├── sql_query_walkthrough.md
+│   └── interview_prep.md
+└── powerbi/
+  └── dashboard_build_guide.md
+  
+``````
 
 ## Analysis performed
 
