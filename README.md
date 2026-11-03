@@ -1,23 +1,24 @@
 # Financial Expense Analysis & Budget Variance | SQL for FP&A | Powerbi
 
-## Project overview
+Project Overview
 
-This project uses **PostgreSQL** to analyse synthetic accounts-payable and operating-expense data for a fictional multi-department business. It addresses practical Financial Planning & Analysis (FP&A) questions: where costs are incurred, how invoiced spend compares with budget, how spending changes over time, what remains unpaid, and which records need further review.
+This project leverages PostgreSQL and SQL-driven financial analysis to evaluate synthetic accounts payable and operating expense data for a fictional multi-department organization. Designed around real-world Financial Planning & Analysis (FP&A) and finance operations use cases, it examines expenditure patterns, budget performance, vendor costs, payment status, and potential financial control issues.
 
-The analysis follows a repeatable finance-reporting workflow: validate records, define calculation logic, aggregate financial measures at the correct level, and translate query outputs into focused investigation priorities. It demonstrates how SQL can support expense monitoring, budget control, accounts-payable visibility, and finance operations.
+The project demonstrates how structured financial data can be transformed into meaningful insights through data validation, budget variance analysis, payment reconciliation, trend analysis, and vendor-level performance evaluation. It follows a repeatable, data-driven approach to strengthen financial visibility, support management reporting, and enable more informed business decisions.
 
-> **Data note:** All records are synthetic and intended for learning and portfolio demonstration. They do not represent a real company, supplier, or financial ledger.
+Data Disclaimer: All datasets are synthetic and created exclusively for educational and portfolio purposes. They do not represent any actual company, vendor, transaction, or financial ledger.
 
-## Business objectives
+##Business Objectives
 
-- Track invoiced spend by month, department, expense category, and vendor.
-- Compare invoice-date-based actual spend with monthly departmental budgets.
-- Calculate absolute and percentage budget variances while protecting against division by zero.
-- Reconcile invoice amounts against recorded payments and estimate outstanding balances.
-- Identify overdue unpaid or partially paid invoices for follow-up.
-- Flag potential duplicate invoice patterns for human review.
-- Investigate month-on-month spending changes and vendor concentration.
-- Apply data-quality and reconciliation checks before interpreting financial results.
+-**Analyze expenditure patterns:** Track invoiced spend by month, department, cost category, and vendor to understand key cost drivers.
+-**Evaluate budget performance:** Compare invoice-date-based actual expenditure against monthly departmental budgets to identify overspending and underspending.
+-**Quantify financial variances:** Calculate absolute budget variance, variance percentage, and budget utilization to assess financial performance.
+-**Reconcile accounts payable:** Compare invoice values with recorded payments to estimate outstanding balances and improve payment visibility.
+-**Monitor overdue liabilities:** Identify invoices with outstanding balances that were overdue as of 31 December 2025.
+-**Strengthen financial controls:** Flag potential duplicate invoice references and investigate discrepancies requiring further review.
+-**Evaluate spending trends:** Analyze month-on-month changes and vendor concentration to identify significant movements and spending dependencies.
+-**Improve data reliability:** Apply data-quality checks to identify incomplete, inconsistent, or potentially problematic records before interpreting results.
+-**Business Value:** The project connects SQL-based analysis with practical finance questions, demonstrating how data can support cost monitoring, budget control, accounts payable visibility, and evidence-based financial decision-making.
 
 ## Dataset information
 
@@ -52,19 +53,12 @@ Repeated vendor/date/amount combinations are treated as duplicate candidates for
 ```text
 financial-planning-expense-analytics/
 ├── README.md
-├── .gitignore
 ├── data/
 │   ├── raw/
 │   └── cleaned/
-├── scripts/
-│   └── clean_data.py
 ├── sql/
 │   ├── schema.sql
 │   └── analysis_queries.sql
-├── docs/
-│   ├── data_quality_report.md
-│   ├── sql_query_walkthrough.md
-│   └── interview_prep.md
 └── powerbi/
   └── dashboard_build_guide.md
   
@@ -167,7 +161,15 @@ These are investigation priorities, not conclusions that a department or supplie
 
 ## Conclusion
 
-This project demonstrates how PostgreSQL can support FP&A and finance operations through spend analysis, budget-versus-actual reporting, accounts-payable visibility, vendor concentration analysis, and data-quality controls. It emphasises defensible calculation logic, appropriate join granularity, transparent assumptions, and the distinction between an exception flag and a confirmed financial issue.
+Conclusion
+
+This project demonstrates how SQL can transform raw financial data into actionable business insights that support better financial planning, cost control, and decision-making. By analyzing budget vs. actual expenditure, departmental spending patterns, vendor costs, invoice payment status, and overdue payables, the project establishes a structured approach to monitoring financial performance and strengthening financial controls.
+
+Using PostgreSQL, I applied joins, CTEs, aggregate functions, subqueries, and window functions to investigate spending trends, quantify budget variances, reconcile payments, identify potential duplicate invoices, and perform data-quality checks. These analyses demonstrate how financial data can be used to highlight cost deviations, improve visibility into outstanding liabilities, and support more informed business decisions.
+
+**Key takeaway:** Effective financial analysis goes beyond reporting numbers—it connects financial data with business performance, identifies risks and opportunities, and enables organizations to make data-driven decisions.
+
+This project reflects my practical application of SQL to FP&A, financial reporting, expense analysis, and accounts payable, aligning technical analytical skills with real-world business needs.
 
 ## Limitations
 
