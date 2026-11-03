@@ -133,22 +133,32 @@ ORDER BY variance_amount DESC;
 -- Concepts: CTE, SUM, LEFT JOIN, COALESCE
 -- ============================================================
 WITH payment_totals AS (
-    SELECT invoice_id, SUM(payment_amount) AS total_paid
+    SELECT
+        invoice_id,
+        SUM(payment_amount) AS total_paid
     FROM payments
     GROUP BY invoice_id
 )
 SELECT
     i.invoice_id,
-    i.vendor_name,
+    i.invoice_number,
+    v.vendor_name,
     i.department,
-    i.invoice_date,
     i.due_date,
     ROUND(i.invoice_amount, 2) AS invoice_amount,
     ROUND(COALESCE(p.total_paid, 0), 2) AS total_paid,
-    ROUND(i.invoice_amount - COALESCE(p.total_paid, 0), 2) AS outstanding_amount
+    ROUND(
+        i.invoice_amount - COALESCE(p.total_paid, 0), 2
+    ) AS outstanding_amount,
+    DATE '2025-12-31' - i.due_date AS days_past_due
 FROM invoices i
-LEFT JOIN payment_totals p ON p.invoice_id = i.invoice_id
-ORDER BY outstanding_amount DESC;
+JOIN vendors v
+    ON i.vendor_id = v.vendor_id
+LEFT JOIN payment_totals p
+    ON i.invoice_id = p.invoice_id
+WHERE i.due_date < DATE '2025-12-31'
+  AND i.invoice_amount - COALESCE(p.total_paid, 0) > 0
+ORDER BY days_past_due DESC;
 
 -- ============================================================
 -- 09. Outstanding payables by vendor
@@ -219,12 +229,15 @@ ORDER BY record_count DESC, combined_record_value DESC;
 -- ============================================================
 SELECT
     invoice_id,
-    vendor_name,
+    invoice_number,
     department,
-    expense_category,
+    cost_category,
     invoice_amount
 FROM invoices
-WHERE invoice_amount > (SELECT AVG(invoice_amount) FROM invoices)
+WHERE invoice_amount > (
+    SELECT AVG(invoice_amount)
+    FROM invoices
+)
 ORDER BY invoice_amount DESC;
 
 -- ============================================================
@@ -277,7 +290,11 @@ ORDER BY vendor_spend DESC;
 -- Business question: Which categories contribute most to each department's spend?
 -- Concepts: GROUP BY, DENSE_RANK, PARTITION BY, subquery
 -- ============================================================
-SELECT department, expense_category, total_spend, category_rank
+SELECT
+    department,
+    expense_category,
+    total_spend,
+    category_rank
 FROM (
     SELECT
         department,
@@ -288,10 +305,14 @@ FROM (
             ORDER BY SUM(invoice_amount) DESC
         ) AS category_rank
     FROM invoices
-    GROUP BY department, expense_category
-) ranked_categories
+    GROUP BY
+        department,
+        expense_category
+) AS ranked_categories
 WHERE category_rank <= 3
-ORDER BY department, category_rank;
+ORDER BY
+    department,
+    category_rank;
 
 -- ============================================================
 -- 16. Average days from invoice date to last recorded payment
@@ -302,15 +323,25 @@ SELECT
     v.vendor_name,
     v.payment_terms_days,
     COUNT(i.invoice_id) AS invoices_with_payment,
-    ROUND(AVG(p.last_payment_date - i.invoice_date), 1) AS avg_days_to_last_payment
+    ROUND(
+        AVG(p.last_payment_date - i.invoice_date),
+        1
+    ) AS avg_days_to_last_payment
 FROM invoices i
-JOIN vendors v ON v.vendor_id = i.vendor_id
+JOIN vendors v
+    ON v.vendor_id = i.vendor_id
 JOIN (
-    SELECT invoice_id, MAX(payment_date) AS last_payment_date
+    SELECT
+        invoice_id,
+        MAX(payment_date) AS last_payment_date
     FROM payments
     GROUP BY invoice_id
-) p ON p.invoice_id = i.invoice_id
-GROUP BY v.vendor_id, v.vendor_name, v.payment_terms_days
+) p
+    ON p.invoice_id = i.invoice_id
+GROUP BY
+    v.vendor_id,
+    v.vendor_name,
+    v.payment_terms_days
 ORDER BY avg_days_to_last_payment DESC;
 
 -- ============================================================
