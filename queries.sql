@@ -141,15 +141,12 @@ WITH payment_totals AS (
 )
 SELECT
     i.invoice_id,
-    i.invoice_number,
     v.vendor_name,
     i.department,
     i.due_date,
     ROUND(i.invoice_amount, 2) AS invoice_amount,
     ROUND(COALESCE(p.total_paid, 0), 2) AS total_paid,
-    ROUND(
-        i.invoice_amount - COALESCE(p.total_paid, 0), 2
-    ) AS outstanding_amount,
+    ROUND(i.invoice_amount - COALESCE(p.total_paid, 0), 2) AS outstanding_amount,
     DATE '2025-12-31' - i.due_date AS days_past_due
 FROM invoices i
 JOIN vendors v
@@ -159,6 +156,8 @@ LEFT JOIN payment_totals p
 WHERE i.due_date < DATE '2025-12-31'
   AND i.invoice_amount - COALESCE(p.total_paid, 0) > 0
 ORDER BY days_past_due DESC;
+
+
 
 -- ============================================================
 -- 09. Outstanding payables by vendor
@@ -229,9 +228,8 @@ ORDER BY record_count DESC, combined_record_value DESC;
 -- ============================================================
 SELECT
     invoice_id,
-    invoice_number,
     department,
-    cost_category,
+    expense_category,
     invoice_amount
 FROM invoices
 WHERE invoice_amount > (
