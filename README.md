@@ -161,8 +161,6 @@ These are investigation priorities, not conclusions that a department or supplie
 
 ## Conclusion
 
-Conclusion
-
 This project demonstrates how SQL can transform raw financial data into actionable business insights that support better financial planning, cost control, and decision-making. By analyzing budget vs. actual expenditure, departmental spending patterns, vendor costs, invoice payment status, and overdue payables, the project establishes a structured approach to monitoring financial performance and strengthening financial controls.
 
 Using PostgreSQL, I applied joins, CTEs, aggregate functions, subqueries, and window functions to investigate spending trends, quantify budget variances, reconcile payments, identify potential duplicate invoices, and perform data-quality checks. These analyses demonstrate how financial data can be used to highlight cost deviations, improve visibility into outstanding liabilities, and support more informed business decisions.
